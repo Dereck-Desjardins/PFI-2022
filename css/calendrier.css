@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Secular One');
+@import url('https://fonts.googleapis.com/css?family=Zen Dots');
+
+
+
+.calendarBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+}
+.month{
+    height: auto;
+    width: auto;
+    border: 1px solid gray;
+    flex: 24%;
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.day{
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-weight: bold;
+}
+.monthName{
+    grid-column: span 7;
+    padding-bottom: 5px;
+    font-size: 2em;
+    font-family: Secular One;
+}
+.weekDay{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.backgroundDarkPink{
+    background-color: #C86E99 ;
+}
+.backgroundPink{
+    background-color: #da49994d ;
+}
+.concert{
+    color: greenyellow;
+}
+
+@media screen and (max-width:1600px) {
+    .month{
+        flex: 40%;
+    }
+}
+@media screen and (max-width:800px) {
+
+    .month{
+        flex: 100%;
+    }
+}

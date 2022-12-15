@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Zen Dots');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Asap');
+div2{
+    border: 1px solid red;
+}
+.main {
+    margin: auto;
+    max-width: 1400px;
+}
+
+.siteIcon {
+    background-image: URL('../images/favicon-16x16.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+.content {
+    border:4px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgba(127, 255, 212, 0.158);
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.content p {
+    text-align: justify;
+}
+.title{
+    text-align: center;
+    font-size: 4em;
+    padding-top: 10px;
+    font-family: Zen Dots;
+    -webkit-text-stroke: 2px;
+    -webkit-text-fill-color: #C86E99;
+    -webkit-text-stroke-color: black;
+    flex:100%;
+}
+.generalText{
+    font-family: Arvo;
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 30px 30px 10px 30px;
+    flex: 100%; 
+}
+.mainPic{
+    flex: 100%;
+    max-width: 850px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:10px;
+    align-items: center;
+}
+.resizemainPic{
+    flex: 1;
+    max-width: 100%;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+.alignVideo{
+    margin: 50px 20% 50px 20%;
+    flex: 1;
+    height: 550px;
+    border: 10px solid black;   
+}
+.disque{
+    margin:20px 100px 20px 100px;
+    flex: 100%;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+}
+.imageAlbum{
+        flex: 33%;
+        max-width: 100%;
+}
+.imagesize{
+    max-height: 300px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.songList{
+    flex: 66%;
+    margin: 0px 10px 0px 10px;
+    max-width: 60%;
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.tableLayout{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    background-color: #C86E99;
+    flex: 100%;
+}
+.albumTitle{
+    border:1px solid black;
+    font-family: Arvo;
+    font-size: 2em;
+}
+.song{
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: Asap;
+    font-weight: bold;
+}
+.mp3Reader{
+    padding-top: 10px;
+    padding-left: 30%;
+    padding-bottom: 10px;
+    padding-right: 30%;
+    
+}
+.flexBuffer{
+    flex: 10%;
+}
+.chartGrid{
+    margin-top: 20px;
+    flex: 80%;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 20% 10% 10% 10% 10% 10% 10% 20% ;
+    margin-bottom: 20px;
+}
+.gridCell{
+    flex: 1;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: auto;
+    font-family: Asap;
+    font-size: 1.5em;
+}
+.gridHeader{
+    height: 150px;
+    font-family: Arvo;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.backgroundDarkPink{
+    background-color: #C86E99 ;
+}
+.backgroundPink{
+    background-color: #da49994d ;
+}
+
+@media screen and (max-width:1600px) {
+    .mp3Reader{
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+
+}
